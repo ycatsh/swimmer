@@ -1,11 +1,12 @@
 # Visualizing Genetic Algorithm
+trained an agent to learn how to swim via a genetic algorithm 
 
 ## Teaching an Agent How to Swim
 This algorithm trains an agent to learn how to swim via a genetics, that includes, mutation and crossovers enabling the agents to progressively learn.
 
 ### Target
-Speed: 1 m/s
-Distance: 1000 m 
+Speed: 1 m/s  
+Distance: 1000 m   
 Time: $1000\div{1} = 1000 s$
 
 ### Visualization
