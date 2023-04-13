@@ -28,7 +28,7 @@ head_diameter_radius = (0.1, 0.15) # head radius, greater is bad
 
 traits_range = [(40, 100), (1.5, 2), (0.5, 1), (0.75, 1.25), (0, 1), (1, 5), (0.1, 0.15)]
 
-population_window_size = 350
+population_size = 350
 generations = 50000
 mutation_rate = 0.05
 
@@ -44,9 +44,9 @@ def text(text, font, x, y):
     window.blit(disp_text, (x, y))
 
 
-def population(population_window_size):
+def population(population_size):
     population = []
-    for _ in range(population_window_size):
+    for _ in range(population_size):
         human = (random.uniform(weight_range[0], weight_range[1]),
             random.uniform(height_range[0], height_range[1]),
             random.uniform(arm_length_range[0], arm_length_range[1]),
@@ -128,7 +128,7 @@ class Human:
         self.x += (self.speed)*10
 
 
-population = population(population_window_size)
+population = population(population_size)
 drawn_humans = []
 n = 0
 
@@ -164,7 +164,7 @@ for i in range(generations):
         break
 
     new_population = []
-    while len(new_population) < population_window_size:
+    while len(new_population) < population_size:
         parents = selection(fitness_scores)
         child = crossover(parents, traits_range)
         child = mutation(child, mutation_rate) #might not change 
