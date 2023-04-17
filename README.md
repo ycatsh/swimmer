@@ -48,4 +48,4 @@ Time: 1000 s
 ## Visualization  
 Only the maximum speeds are visualized for every very 350 (population size) generations to make the visualization much faster and easier to watch.
 
-https://user-images.githubusercontent.com/91330011/231847320-ec19fd5e-cd40-498d-bb59-10d512487263.mp4
+https://user-images.githubusercontent.com/91330011/232504679-68e76ec4-e16b-448b-93e2-72cceeaf9ee3.mp4
