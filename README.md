@@ -2,7 +2,7 @@
 Trains and visualizes agents to learn how to swim via a genetic algorithm.
 
 ## Genetic Algorithm
-Each generated agent has 7 traits (genomes) which is randomly decided. The script defines a range for a bunch of trriats that define an agent's ability to swim.  
+Each generated agent has 7 traits (genomes) which is randomly decided. The script defines a range for a bunch of traits that define an agent's ability to swim.  
   
 The agent's speed is then calculated based on their traits and added to a list of all the corresponding speeds of the population. The population is mutated and crossed to allow diversity and learning between the generated agents to simulate the [survival of the fittest](https://en.wikipedia.org/wiki/Survival_of_the_fittest)    
   
